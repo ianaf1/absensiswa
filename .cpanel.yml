@@ -3,6 +3,7 @@ deployment:
   tasks:
     - export DEPLOYPATH=/home/u3688835/public_html/presensi/
     - /bin/cp .htaccess $DEPLOYPATH
+    - /bin/cp .editorconfig $DEPLOYPATH
     - /bin/cp composer.json $DEPLOYPATH
     - /bin/cp index.php $DEPLOYPATH
     - /bin/cp -R application $DEPLOYPATH
